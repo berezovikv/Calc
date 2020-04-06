@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title> калькулятор</title>
+    </head>
+<body >
+
+<script>
+
+class Calc  {
+
+    constructor(x) {
+        this.x = x;
+        
+    }
+
+getAdd (y) {
+    return this.x=y;
+}
+getSum (y) {
+    return this.x=y+this.x
+}
+getDiff (y) {
+   return this.x=y/ this.x;
+}
+getMultipl (y) {
+   return this.x=y * this.x;
+}
+getDivis (y) {
+    return this.x=y- this.x;
+}
+getRevers (y) {
+    return this.x = 0;
+}
+getResult (y) {
+    return this.x;
+    
+}
+}
+
+
+class Calc1 extends Calc {
+    constructor(x) {
+        super(x);
+}
+
+getSin (y){
+    return Math.sin(y)
+}
+getCos (y) {
+    return Math.cos(y)
+}
+getTan (y) {
+    return Math.sin(y)
+}
+getSin (y) {
+    return Math.sin(y)
+ }
+getSqrt(y) {
+    return Math.sqrt(y)
+}
+getLog (y) {
+    return Math.log(y)
+}
+getExp(y){
+    return Math.exp(y)
+}
+
+}
+    
+
+    const Ste = new Calc1 (10)
+</script> 
+
+</body>
+</html>
