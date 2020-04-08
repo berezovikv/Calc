@@ -41,34 +41,34 @@ getResult (y) {
 class Calc1 extends Calc {
     constructor(x) {
         super(x);
+    
 }
 
-getSin (y){
-    return Math.sin(y)
+getSin (){
+    return Math.sin(this.x)
 }
-getCos (y) {
-    return Math.cos(y)
+getCos () {
+    return Math.cos(this.x)
 }
-getTan (y) {
-    return Math.sin(y)
+getTan () {
+    return Math.tan(this.x)
 }
-getSin (y) {
-    return Math.sin(y)
+getSin () {
+    return Math.sin(this.x)
  }
-getSqrt(y) {
-    return Math.sqrt(y)
+getSqrt() {
+    return Math.sqrt(this.x)
 }
-getLog (y) {
-    return Math.log(y)
+getLog () {
+    return Math.log(this.x)
 }
-getExp(y){
-    return Math.exp(y)
+getExp(){
+    return Math.exp(this.x)
 }
 
 }
     
 
-    const Ste = new Calc1 (10)
 </script> 
 
 </body>
